@@ -5,7 +5,20 @@
  ** Default: https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js
  */
 module.exports = {
-  theme: {},
+  theme: {
+    fontFamily: {
+      roobert: [
+        'roobert-reg',
+        'roobert-med',
+        'roobert-semi',
+        'roobert-bold',
+        'system-ui',
+        '"Segoe UI"',
+        '"Helvetica Neue"',
+        'Arial'
+      ],
+    },
+  },
   variants: {},
   plugins: [],
   purge: {

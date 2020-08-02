@@ -10,8 +10,9 @@
 .header-anchor {
   @apply w-1/4 relative text-left pt-2;
   &:hover {
+    @apply text-red-400 font-bold;
     &::before {
-      @apply absolute border-t-2  border-red-600 inset-0 z-10;
+      @apply absolute border-t-2  border-red-400 inset-0 z-10;
       content: '';
       width: 18.75%;;
     }
