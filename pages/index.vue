@@ -5,6 +5,8 @@
     <Stats/>
     <Services/>
     <Mobile/>
+    <Presentation/>
+
   </div>
 </template>
 
@@ -14,6 +16,7 @@ import Story from '@/components/Story'
 import Stats from '@/components/Stats'
 import Services from '@/components/Services'
 import Mobile from '@/components/Mobile'
+import Presentation from '@/components/Presentation'
 
 export default {
   components: {
@@ -21,7 +24,8 @@ export default {
     Story,
     Stats,
     Services,
-    Mobile
+    Mobile,
+    Presentation
   }
 };
 </script>
