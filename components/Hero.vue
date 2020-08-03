@@ -1,6 +1,6 @@
 <template>
-  <header class="h-screen w-screen bg-cover bg-center text-white text-center font-Montserrat" style="background-image: url(/bg.png)">
-    <div class="container h-screen mx-auto">
+  <header class="bg-cover bg-center text-white text-center font-Montserrat" style="background-image: url(/bg.png)">
+    <div class="container mx-auto">
       <Navbar/>
       <div class="py-24 flex-col justify-center">
         <span class="text-4xl font-Kaushan">Creative Template</span>
@@ -11,7 +11,7 @@
         </n-link>
       </div>
       <div class="mt-2">
-        <ul class="flex flex-wrap">
+        <ul class="flex flex-wrap pb-2">
           <h-anchor class="one"><span class="pr-1 font-bold">01</span>Intro</h-anchor>
           <h-anchor class="two"><span class="pr-1 font-bold">02</span>Work</h-anchor>
           <h-anchor class="three"><span class="pr-1 font-bold">03</span>About</h-anchor>

@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="bg-white font-Montserrat container mx-auto text-center mt-12">
+    <div class="bg-white font-Montserrat container mx-auto text-center mt-20">
       <div>
         <span class="text-xl font-Kaushan">What we do</span>
         <h1 class="uppercase text-2xl font-Montserrat font-bold tracking-tighter mt-2">Story about us</h1>
