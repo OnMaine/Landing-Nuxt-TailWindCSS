@@ -1,10 +1,10 @@
 <template>
-  <header class="h-screen w-screen bg-cover bg-center text-white text-center" style="background-image: url(/bg.png)">
+  <header class="h-screen w-screen bg-cover bg-center text-white text-center font-Montserrat" style="background-image: url(/bg.png)">
     <div class="container h-screen mx-auto">
       <Navbar/>
       <div class="py-24 flex-col justify-center">
-        <span class="text-4xl font-sans">Creative Template</span>
-        <h1 class="uppercase text-6xl">Welcome <br> to MoGo</h1>
+        <span class="text-4xl font-Kaushan">Creative Template</span>
+        <h1 class="uppercase text-6xl font-bold">Welcome <br> to MoGo</h1>
         <div class="border-b-4 w-16 mx-auto my-8"></div>
         <n-link to="about">
           <h-button>Learn More</h-button>

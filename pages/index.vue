@@ -1,24 +1,28 @@
 <template>
   <div>
     <Hero/>
+    <Story/>
+    <Stats/>
+    <Services/>
   </div>
 </template>
 
 <script>
 import Hero from '@/components/Hero'
+import Story from '@/components/Story'
+import Stats from '@/components/Stats'
+import Services from '@/components/Services'
 
 export default {
   components: {
-    Hero
+    Hero,
+    Story,
+    Stats,
+    Services
   }
 };
 </script>
 
-<style scoped>
-.badge {
-  @apply inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700;
-  &:hover {
-    @apply bg-gray-300;
-  }
-}
+<style>
+
 </style>

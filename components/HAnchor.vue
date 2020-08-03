@@ -10,7 +10,7 @@
 .header-anchor {
   @apply w-1/4 relative text-left pt-2;
   &:hover {
-    @apply text-red-400 font-bold;
+    @apply text-red-400 font-bold cursor-pointer;
     &::before {
       @apply absolute border-t-2  border-red-400 inset-0 z-10;
       content: '';
