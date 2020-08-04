@@ -70,14 +70,12 @@
 
 .services-card {
   @apply flex w-1/4 items-start;
-}
-
-.services-card h4 {
-  @apply font-bold font-Montserrat text-gray-900 text-sm;
-}
-
-.services-card p {
-  @apply font-Roboto pt-2 text-gray-600 text-sm;
+  & h4 {
+    @apply font-bold font-Montserrat text-gray-900 text-sm;
+  }
+  & p {
+    @apply font-Roboto pt-2 text-gray-600 text-sm;
+  }
 }
 
 .services-img {
