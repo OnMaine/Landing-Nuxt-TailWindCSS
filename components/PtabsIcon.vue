@@ -16,7 +16,7 @@
 
 <style>
 .Ptabs-icon {
-  @apply float-left p-5 pb-0;
+  @apply float-left p-3 pb-0;
 }
 
 </style>

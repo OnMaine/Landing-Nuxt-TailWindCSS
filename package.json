@@ -12,6 +12,7 @@
     "post-update": "yarn upgrade --latest"
   },
   "dependencies": {
+    "hooper": "^0.3.4",
     "nuxt": "2.12.2",
     "reqlim": "^0.0.0",
     "vue": "^2.6.11"

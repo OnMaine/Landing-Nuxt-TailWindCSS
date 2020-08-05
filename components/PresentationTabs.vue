@@ -6,9 +6,9 @@
 
 <style>
 .presentation-tab {
-  @apply mb-6 border border-gray-300;
+  @apply mb-4 border border-gray-300;
   & h1 {
-    @apply font-medium uppercase text-gray-700 relative my-5 pl-5 cursor-pointer outline-none;
+    @apply font-medium uppercase text-gray-700 relative my-4 pl-5 cursor-pointer outline-none;
     &::before {
       @apply absolute text-center;
     }

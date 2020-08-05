@@ -20,7 +20,6 @@
             <h1 tabindex="-1">Photography</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim optio commodi magni aliquam quas amet voluptatibus, et error vitae,
                repellendus unde minima fuga fugiat consequatur laboriosam aut nostrum molestias accusantium!
-               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -41,7 +40,6 @@
             <h1 tabindex="-1">Web design</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim optio commodi magni aliquam quas amet voluptatibus, et error vitae,
                repellendus unde minima fuga fugiat consequatur laboriosam aut nostrum molestias accusantium!
-               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
