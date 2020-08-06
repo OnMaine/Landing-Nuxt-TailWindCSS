@@ -1,7 +1,7 @@
 <template>
   <hooper :settings="hooperSettings" class="slider-section">
     <slide class="slide">
-      <ptabs-icon class="slide-img" name="group" alt="design"> asd</ptabs-icon>
+      <ptabs-icon class="slide-img" name="user" alt="design"> asd</ptabs-icon>
       <blockquote>
         <p class="block-text">
           “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -11,7 +11,7 @@
       </blockquote>
     </slide>
     <slide class="slide">
-      <ptabs-icon class="slide-img" name="user" alt="design"> asd</ptabs-icon>
+      <ptabs-icon class="slide-img" name="user2" alt="design"> asd</ptabs-icon>
       <blockquote>
         <p class="block-text">
           “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -62,11 +62,11 @@ export default {
   @apply mx-24 pb-0;
 }
 .slide {
-  @apply my-10 self-center;
+  @apply my-10;
 }
 
 .block-text {
-  @apply font-Roboto italic w-4/5;
+  @apply font-Roboto italic w-4/5 pt-10;
 }
 
 .block-signature {
@@ -80,5 +80,11 @@ export default {
   margin-left: auto;
 }
 
-
+.block-signature {
+  &::before {
+  @apply border-b-4 border-red-400 w-32 absolute;
+  content: "";
+  top: 210px;
+ }
+}
 </style>

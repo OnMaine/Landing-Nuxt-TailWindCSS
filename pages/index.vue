@@ -1,12 +1,13 @@
 <template>
   <div>
-    <Hero/>
-    <Story/>
-    <Stats/>
-    <Services/>
-    <Mobile/>
-    <Presentation/>
-    <slider/>
+    <Hero />
+    <Story />
+    <Stats />
+    <Services />
+    <Mobile />
+    <Presentation />
+    <Slider />
+    <Team />
 
   </div>
 </template>
@@ -19,6 +20,7 @@ import Services from '@/components/Services'
 import Mobile from '@/components/Mobile'
 import Presentation from '@/components/Presentation'
 import Slider from '@/components/Slider'
+import Team from '@/components/Team'
 
 export default {
   components: {
@@ -28,7 +30,8 @@ export default {
     Services,
     Mobile,
     Presentation,
-    Slider
+    Slider,
+    Team
   }
 };
 </script>
