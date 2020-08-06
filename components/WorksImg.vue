@@ -1,7 +1,5 @@
 <template>
-  <div>
     <img :src="'/'+`${name}`+'.png'" >
-  </div>
 </template>
 
 <script>
