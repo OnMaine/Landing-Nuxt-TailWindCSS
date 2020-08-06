@@ -21,7 +21,6 @@
       </blockquote>
     </slide>
     <hooper-navigation class="hooper-navigation" slot="hooper-addons"></hooper-navigation>
-    <hooper-pagination class="hooper-navigation"  slot="hooper-addons"></hooper-pagination>
   </hooper>
 </template>
 

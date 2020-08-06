@@ -17,8 +17,8 @@
        z-index: -1;
     }
     &::before {
-      @apply absolute w-full h-full z-10 flex items-center justify-center text-white uppercase font-bold font-Montserrat;
-       content: "Super Team";
+      @apply absolute w-full h-full z-10 flex;
+       content: "";
        background: linear-gradient(#db7474, #e3cc7c);
        opacity: 0.9;
     }
