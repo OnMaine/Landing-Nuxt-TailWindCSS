@@ -13,23 +13,38 @@
     </div>
     <div class="container mx-auto flex flex-row justify-around mb-32 text-center">
       <div>
-        <story-card>
-          <img src="/team1.png" alt="team designer">
-        </story-card>
+        <div class="story-image">
+          <story-card>
+            <img src="/team1.png" alt="team designer">
+            <div class="story-image-text team-text">
+              <team-social></team-social>
+            </div>
+          </story-card>
+        </div>
         <h3 class="team-name">Metthew Dix</h3>
         <p class="team-position">Graphic Design</p>
       </div>
       <div>
-        <story-card>
-          <img src="/team2.png" alt="team Ui|Ux">
-        </story-card>
+        <div class="story-image">
+          <story-card>
+            <img src="/team2.png" alt="team Ui|Ux">
+            <div class="story-image-text team-text">
+              <team-social></team-social>
+            </div>
+          </story-card>
+        </div>
         <h3 class="team-name">Christopher Campbell</h3>
         <p class="team-position">Branding/UX design</p>
       </div>
       <div>
-        <story-card>
-          <img src="/team3.png" alt="team developer">
-        </story-card>
+        <div class="story-image">
+          <story-card>
+            <img src="/team3.png" alt="team developer">
+            <div class="story-image-text team-text">
+              <team-social></team-social>
+            </div>
+          </story-card>
+        </div>
         <h3 class="team-name">Michael Fertig</h3>
         <p class="team-position">Developer</p>
       </div>
@@ -39,10 +54,12 @@
 
 <script>
 import StoryCard from '~/components/StoryCard';
+import TeamSocial from '~/components/TeamSocial';
 
 export default {
   components: {
     StoryCard,
+    TeamSocial
   }
 };
 </script>
@@ -55,4 +72,9 @@ export default {
 .team-position {
   @apply italic font-thin text-base;
 }
+
+.story-image:hover .team-text{
+  left: 20%;
+}
+
 </style>
