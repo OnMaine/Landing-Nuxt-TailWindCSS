@@ -1,7 +1,7 @@
 <template>
-      <social-img>
-        <slot>img</slot>
-      </social-img>
+  <social-img>
+    <slot>img</slot>
+  </social-img>
 </template>
 
 <script>

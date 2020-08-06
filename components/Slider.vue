@@ -1,27 +1,29 @@
 <template>
-  <hooper :settings="hooperSettings" class="slider-section">
-    <slide class="slide">
-      <ptabs-icon class="slide-img" name="user" alt="design"> asd</ptabs-icon>
-      <blockquote>
-        <p class="block-text">
-          “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-           Ut enim ad minim veniam, quis nostrud exercitation.”
-        </p>
-        <p class="block-signature">Jon Doe</p>
-      </blockquote>
-    </slide>
-    <slide class="slide">
-      <ptabs-icon class="slide-img" name="user2" alt="design"> asd</ptabs-icon>
-      <blockquote>
-        <p class="block-text">
-          “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-           Ut enim ad minim veniam, quis nostrud exercitation.”
-        </p>
-        <p class="block-signature">Joshua Earle</p>
-      </blockquote>
-    </slide>
-    <hooper-navigation class="hooper-navigation" slot="hooper-addons"></hooper-navigation>
-  </hooper>
+  <section>
+    <hooper :settings="hooperSettings" class="slider">
+      <slide class="slide">
+        <ptabs-icon class="slide-img" name="user" alt="design"> asd</ptabs-icon>
+        <blockquote>
+          <p class="block-text">
+            “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+             Ut enim ad minim veniam, quis nostrud exercitation.”
+          </p>
+          <p class="block-signature">Jon Doe</p>
+        </blockquote>
+      </slide>
+      <slide class="slide">
+        <ptabs-icon class="slide-img" name="user2" alt="design"> asd</ptabs-icon>
+        <blockquote>
+          <p class="block-text">
+            “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+             Ut enim ad minim veniam, quis nostrud exercitation.”
+          </p>
+          <p class="block-signature">Joshua Earle</p>
+        </blockquote>
+      </slide>
+      <hooper-navigation class="hooper-navigation" slot="hooper-addons"></hooper-navigation>
+    </hooper>
+  </section>
 </template>
 
 <script>
@@ -58,7 +60,7 @@ export default {
 </script>
 
 <style>
-.slider-section {
+.slider {
    @apply bg-gray-300 mb-24 h-full;
 }
 
