@@ -45,7 +45,12 @@ export default {
     return {
       hooperSettings: {
         itemsToShow: 1,
-        centerMode: true
+        centerMode: true,
+        infiniteScroll: true,
+        centerMode: true,
+        autoPlay: true,
+        playSpeed: 5000,
+        transition: 1000
       }
     };
   }
