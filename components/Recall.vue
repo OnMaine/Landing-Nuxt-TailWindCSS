@@ -1,13 +1,13 @@
 <template>
   <section style="background-image: url(/recall.png)">
-    <div class="container font-Montserrat mx-auto text-center py-24">
-      <div class="pt-24">
+    <div class="container font-Montserrat mx-auto text-center py-20">
+      <div>
         <span class="text-xl font-Kaushan">Heppy Clients</span>
         <h1 class="uppercase text-2xl font-Montserrat font-bold tracking-tighter mt-2">What people say</h1>
       </div>
       <div class="border-b-4 border-red-400 w-16 mx-auto my-8"></div>
     </div>
-    <div class="container mx-auto grid grid-cols-2 grid-rows-2">
+    <div class="container mx-auto grid grid-cols-2 grid-rows-2 pb-12">
       <recall-card>
         <img src="/user1.png" alt="">
         <div class="recall-text">

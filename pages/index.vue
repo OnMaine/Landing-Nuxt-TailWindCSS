@@ -12,6 +12,7 @@
     <Works />
     <Slider />
     <Recall />
+    <Blog />
 
   </div>
 </template>
@@ -28,6 +29,8 @@ import Team from '@/components/Team'
 import Hipster from '@/components/Hipster'
 import Works from '@/components/Works'
 import Recall from '@/components/Recall'
+import Blog from '@/components/Blog'
+
 
 export default {
   components: {
@@ -41,7 +44,8 @@ export default {
     Team,
     Hipster,
     Works,
-    Recall
+    Recall,
+    Blog
   }
 };
 </script>
