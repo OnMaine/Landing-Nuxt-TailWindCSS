@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="bg-white container mx-auto text-center my-20">
+    <div class="bg-white container mx-auto text-center py-20">
       <div>
         <span class="text-xl font-Kaushan">We work with</span>
         <h1 class="uppercase text-2xl font-Montserrat font-bold tracking-tighter mt-2">Amazing Services</h1>

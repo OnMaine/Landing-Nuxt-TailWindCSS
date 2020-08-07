@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="container bg-white font-Montserrat mx-auto text-center mt-20">
+    <div class="container bg-white font-Montserrat mx-auto text-center pt-20">
       <div>
         <span class="text-xl font-Kaushan">What we do</span>
         <h1 class="uppercase text-2xl font-Montserrat font-bold tracking-tighter mt-2">Some of our work</h1>

@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="bg-white font-Montserrat container mx-auto text-center mt-20">
+    <div class="bg-white font-Montserrat container mx-auto text-center pt-20">
       <div>
         <span class="text-xl font-Kaushan">What we do</span>
         <h1 class="uppercase text-2xl font-Montserrat font-bold tracking-tighter mt-2">Story about us</h1>
@@ -58,8 +58,8 @@ export default {
 
 .story-image:hover .story-image-text {
   @apply block absolute z-50 flex flex-col justify-center;
-  top: 40%;
-  left: 35%;
+  top: calc(50% - 47px/2);
+  left: calc(50% - 110px/2);
 }
 
 </style>

@@ -17,7 +17,7 @@
 
 .works-content:hover .works-text {
   @apply block absolute z-50 flex flex-col justify-center;
-  top: 45%;
-  left: 25%;
+  top: calc(50% - 102px/2);
+  left: calc(50% - 215px/2);
 }
 </style>
