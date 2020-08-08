@@ -56,4 +56,8 @@ export default {
     }
   }
 }
+.works-content img {
+  width: 100%;
+}
+
 </style>
