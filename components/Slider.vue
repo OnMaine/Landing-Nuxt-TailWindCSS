@@ -1,7 +1,7 @@
 <template>
   <hooper :settings="hooperSettings" class="slider">
     <slide class="slide">
-      <ptabs-icon class="slide-img" name="user" alt="design"> asd</ptabs-icon>
+      <img-loader class="slide-img" name="user" alt="design"> asd</img-loader>
       <blockquote>
         <p class="block-text">
           “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -11,7 +11,7 @@
       </blockquote>
     </slide>
     <slide class="slide">
-      <ptabs-icon class="slide-img" name="user2" alt="design"> asd</ptabs-icon>
+      <img-loader class="slide-img" name="user2" alt="design"> asd</img-loader>
       <blockquote>
         <p class="block-text">
           “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -30,7 +30,7 @@ import {
   Slide,
   Navigation as HooperNavigation
 } from 'hooper';
-import PtabsIcon from '~/components/PtabsIcon';
+import ImgLoader from '~/components/ImgLoader';
 import 'hooper/dist/hooper.css';
 
 export default {
@@ -39,7 +39,7 @@ export default {
     Hooper,
     Slide,
     HooperNavigation,
-    PtabsIcon
+    ImgLoader
   },
   data() {
     return {
@@ -63,7 +63,7 @@ export default {
 }
 
 .slide-img {
-  @apply mx-24 pb-0;
+  @apply mx-24 float-left pb-0 p-3;
 }
 .slide {
   @apply my-10;

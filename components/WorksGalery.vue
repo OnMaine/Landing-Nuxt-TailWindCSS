@@ -1,43 +1,43 @@
 <template>
   <div class="grid grid-cols-4 gap-0">
     <div class="works-content">
-      <works-img name="work"></works-img>
+      <img-loader name="work"></img-loader>
       <works-text></works-text>
     </div>
     <div class="works-content">
-      <works-img name="work3"></works-img>
+      <img-loader name="work3"></img-loader>
       <works-text></works-text>
     </div>
     <div class="works-content row-span-2">
-      <works-img name="work5" ></works-img>
+      <img-loader name="work5" ></img-loader>
       <works-text></works-text>
     </div>
     <div class="works-content">
-      <works-img name="work7"></works-img>
+      <img-loader name="work7"></img-loader>
       <works-text></works-text>
     </div>
     <div class="works-content">
-      <works-img name="work2"></works-img>
+      <img-loader name="work2"></img-loader>
       <works-text></works-text>
     </div>
     <div class="works-content">
-      <works-img name="work4"></works-img>
+      <img-loader name="work4"></img-loader>
       <works-text></works-text>
     </div>
     <div class="works-content">
-      <works-img name="work6"></works-img>
+      <img-loader name="work6"></img-loader>
       <works-text></works-text>
     </div>
   </div>
 </template>
 
 <script>
-import WorksImg from '~/components/WorksImg';
+import ImgLoader from '~/components/ImgLoader';
 import WorksText from '~/components/WorksText';
 
 export default {
   components: {
-    WorksImg,
+    ImgLoader,
     WorksText
   }
 };

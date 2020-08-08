@@ -13,6 +13,8 @@
     <Slider />
     <Recall />
     <Blog />
+    <Locations />
+    <Footer />
 
   </div>
 </template>
@@ -30,7 +32,8 @@ import Hipster from '@/components/Hipster'
 import Works from '@/components/Works'
 import Recall from '@/components/Recall'
 import Blog from '@/components/Blog'
-
+import Locations from '@/components/Locations'
+import Footer from '@/components/Footer'
 
 export default {
   components: {
@@ -45,7 +48,9 @@ export default {
     Hipster,
     Works,
     Recall,
-    Blog
+    Blog,
+    Locations,
+    Footer
   }
 };
 </script>

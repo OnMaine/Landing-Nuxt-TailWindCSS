@@ -1,5 +1,5 @@
 <template>
-  <section style="background-image: url(/mobile.png)">
+  <section style="background-image: url(/mobile.png) no-repeat; background-size: cover;">
     <div class="font-Montserrat container mx-auto text-center">
       <div class="pt-20">
         <span class="text-xl font-Kaushan">For all devices</span>
