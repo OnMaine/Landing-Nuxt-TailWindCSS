@@ -6,16 +6,14 @@
         <span class="text-4xl font-Kaushan">Creative Template</span>
         <h1 class="uppercase text-6xl font-bold">Welcome <br> to MoGo</h1>
         <div class="border-b-4 w-16 mx-auto my-8"></div>
-        <n-link to="about">
           <h-button>Learn More</h-button>
-        </n-link>
       </div>
       <div class="mt-2">
-        <ul class="flex flex-wrap pb-2">
-          <h-anchor class="one"><span class="pr-1 font-bold">01</span>Intro</h-anchor>
-          <h-anchor class="two"><span class="pr-1 font-bold">02</span>Work</h-anchor>
-          <h-anchor class="three"><span class="pr-1 font-bold">03</span>About</h-anchor>
-          <h-anchor class="four"><span class="pr-1 font-bold">04</span>Contacts</h-anchor>
+        <ul class="flex flex-wrap pb-2 uppercase">
+          <h-anchor class="one"><a :href="'#intro'"><span class="pr-1 font-bold">01</span>Intro</a></h-anchor>
+          <h-anchor class="two"><a :href="'#work'"><span class="pr-1 font-bold">02</span>Work</a></h-anchor>
+          <h-anchor class="three"><a :href="'#recall'"><span class="pr-1 font-bold">03</span>About</a></h-anchor>
+          <h-anchor class="four"><a :href="'#contacts'"><span class="pr-1 font-bold z-50">04</span>Contacts</a></h-anchor>
         </ul>
       </div>
     </div>

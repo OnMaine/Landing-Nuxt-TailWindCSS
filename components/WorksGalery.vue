@@ -1,31 +1,31 @@
 <template>
   <div class="grid grid-cols-4 gap-0">
     <div class="works-content">
-      <img-loader name="work"></img-loader>
+      <img-loader class="image-full" name="work"></img-loader>
       <works-text></works-text>
     </div>
     <div class="works-content">
-      <img-loader name="work3"></img-loader>
+      <img-loader class="image-full" name="work3"></img-loader>
       <works-text></works-text>
     </div>
     <div class="works-content row-span-2">
-      <img-loader name="work5" ></img-loader>
+      <img-loader class="image-full" name="work5" ></img-loader>
       <works-text></works-text>
     </div>
     <div class="works-content">
-      <img-loader name="work7"></img-loader>
+      <img-loader class="image-full" name="work7"></img-loader>
       <works-text></works-text>
     </div>
     <div class="works-content">
-      <img-loader name="work2"></img-loader>
+      <img-loader class="image-full" name="work2"></img-loader>
       <works-text></works-text>
     </div>
     <div class="works-content">
-      <img-loader name="work4"></img-loader>
+      <img-loader class="image-full" name="work4"></img-loader>
       <works-text></works-text>
     </div>
     <div class="works-content">
-      <img-loader name="work6"></img-loader>
+      <img-loader class="image-full" name="work6"></img-loader>
       <works-text></works-text>
     </div>
   </div>
@@ -56,7 +56,7 @@ export default {
     }
   }
 }
-.works-content img {
+.image-full {
   width: 100%;
 }
 

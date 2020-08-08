@@ -1,5 +1,5 @@
 <template>
-  <li class="header-anchor"><a href="#"><slot>Name</slot></a></li>
+  <li class="header-anchor"><slot>Name</slot></li>
 </template>
 
 <script>

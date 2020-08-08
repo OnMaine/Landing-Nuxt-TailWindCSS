@@ -1,5 +1,5 @@
 <template>
-  <section class="footer">
+  <section id="contacts" class="footer">
     <div class="container mx-auto">
       <div class="grid grid-cols-1 sm:grid-cols-3 pt-12">
         <div class="social-mogo p-5 grid grid-cols-1 grid-rows-2">

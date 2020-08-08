@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section id="intro">
     <div class="bg-white font-Montserrat container mx-auto text-center pt-20">
       <div>
         <span class="text-xl font-Kaushan">What we do</span>

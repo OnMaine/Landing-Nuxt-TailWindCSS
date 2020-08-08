@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section id="work">
     <div class="container bg-white font-Montserrat mx-auto text-center pt-20">
       <div>
         <span class="text-xl font-Kaushan">What we do</span>
