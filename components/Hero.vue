@@ -10,10 +10,10 @@
       </div>
       <div class="mt-2">
         <ul class="grid grid-cols-2 sm:grid-cols-4 pb-2 pl-5 text-xs sm:text-lg uppercase">
-          <h-anchor class="one z-0"><a :href="'#intro'"><span class="pr-1 font-bold z-50">01</span>Intro</a></h-anchor>
-          <h-anchor class="two z-0"><a :href="'#work'"><span class="pr-1 font-bold z-50">02</span>Work</a></h-anchor>
-          <h-anchor class="three z-0"><a :href="'#recall'"><span class="pr-1 font-bold z-50">03</span>About</a></h-anchor>
-          <h-anchor class="four z-0"><a :href="'#contacts'"><span class="pr-1 font-bold z-50">04</span>Contacts</a></h-anchor>
+          <h-anchor class="one"><a :href="'#intro'"><span class="pr-1 font-bold">01</span>Intro</a></h-anchor>
+          <h-anchor class="two"><a :href="'#work'"><span class="pr-1 font-bold">02</span>Work</a></h-anchor>
+          <h-anchor class="three"><a :href="'#recall'"><span class="pr-1 font-bold">03</span>About</a></h-anchor>
+          <h-anchor class="four"><a :href="'#contacts'"><span class="pr-1 font-bold">04</span>Contacts</a></h-anchor>
         </ul>
       </div>
     </div>
