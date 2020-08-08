@@ -91,4 +91,10 @@ export default {
   top: 210px;
  }
 }
+
+@media (min-width: 320px) and (max-width: 1068px) {
+  .slider {
+    display: none;
+  }
+}
 </style>
