@@ -9,45 +9,60 @@
     </div>
     <div class="container mx-auto grid grid-cols-1 sm:grid-cols-3 gap-0 mb-32">
       <div class="blog-card">
-        <img-loader name="blog1"></img-loader>
+        <div class="grid justify-center">
+          <img-loader name="blog1"></img-loader>
+        </div>
         <div class="blog-text">
           <h3>Lorem ipsum dolor sit amet</h3>
-          <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <div class="line"></div>
-          <div class="coments-stats">
-            <img-loader name="view"></img-loader>
-            <span>992</span>
-            <img-loader name="com"></img-loader>
-            <span>42</span>
-          </div>
+          <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+          <blog-comments>
+              <blog-stats>
+                <img-loader name="view"></img-loader>
+                <span>992</span>
+              </blog-stats>
+              <blog-stats>
+                <img-loader name="com"></img-loader>
+                <span>42</span>
+              </blog-stats>
+            </blog-comments>
         </div>
       </div>
       <div class="blog-card">
-        <img-loader name="blog2"></img-loader>
+        <div class="grid justify-center">
+          <img-loader name="blog2"></img-loader>
+        </div>
         <div class="blog-text">
           <h3>sed do eiusmod tempor</h3>
           <p>Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <div class="line"></div>
-          <div class="coments-stats">
-            <img-loader name="view"></img-loader>
-            <span>1560</span>
-            <img-loader name="com"></img-loader>
-            <span>98</span>
-          </div>
+          <blog-comments>
+              <blog-stats>
+                <img-loader name="view"></img-loader>
+                <span>1560</span>
+              </blog-stats>
+              <blog-stats>
+                <img-loader name="com"></img-loader>
+                <span>98</span>
+              </blog-stats>
+            </blog-comments>
         </div>
       </div>
       <div class="blog-card">
-        <img-loader name="blog3"></img-loader>
+        <div class="grid justify-center">
+          <img-loader name="blog3"></img-loader>
+        </div>
         <div class="blog-text">
           <h3>incididunt ut labore et dolore</h3>
           <p>Elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <div class="line"></div>
-          <div class="coments-stats">
-            <img-loader name="view"></img-loader>
-            <span>542</span>
-            <img-loader name="com"></img-loader>
-            <span>17</span>
-          </div>
+          <blog-comments>
+              <blog-stats>
+                <img-loader name="view"></img-loader>
+                <span>542</span>
+              </blog-stats>
+              <blog-stats>
+                <img-loader name="com"></img-loader>
+                <span>17</span>
+              </blog-stats>
+            </blog-comments>
         </div>
       </div>
     </div>
@@ -56,21 +71,25 @@
 
 <script>
 import ImgLoader from '~/components/ImgLoader';
+import BlogComments from '~/components/BlogComments';
+import BlogStats from '~/components/BlogStats';
 
 export default {
 components: {
-  ImgLoader
+  ImgLoader,
+  BlogComments,
+  BlogStats
 }
 };
 </script>
 
 <style>
 .blog-card {
-  @apply grid grid-rows-2 justify-center;
+  @apply grid grid-rows-2 justify-center px-3;
 }
 
 .blog-text {
-  @apply row-span-2;
+  @apply row-span-2 grid justify-center mb-5;
 }
 
 .blog-text h3 {
@@ -78,27 +97,7 @@ components: {
 }
 
 .blog-text p {
-  @apply text-gray-500  pr-10 pb-8;
-}
-
-.coments-stats {
-  @apply flex flex-row py-3;
-
-}
-
-.coments-stats img{
-  @apply py-2 pr-3;
-}
-
-.coments-stats span {
-  @apply pr-5 text-sm self-center italic text-gray-600;
-  &:hover {
-    @apply underline cursor-pointer text-orange-400;
-  }
-}
-
-.line {
-  @apply bg-gray-600 border-b;
+  @apply text-gray-500 border-gray-600 border-b;
   max-width: 380px;
 }
 </style>

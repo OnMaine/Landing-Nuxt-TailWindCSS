@@ -52,9 +52,7 @@ export default {
 </script>
 
 <style>
-.logo {
 
-}
 .link {
   @apply px-6 text-white uppercase;
   &:hover {

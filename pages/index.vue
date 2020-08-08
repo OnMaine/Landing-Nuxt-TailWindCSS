@@ -14,8 +14,8 @@
     <Recall />
     <Blog />
     <Locations />
+    <Social />
     <Footer />
-
   </div>
 </template>
 
@@ -33,6 +33,7 @@ import Works from '@/components/Works'
 import Recall from '@/components/Recall'
 import Blog from '@/components/Blog'
 import Locations from '@/components/Locations'
+import Social from '@/components/Social'
 import Footer from '@/components/Footer'
 
 export default {
@@ -50,6 +51,7 @@ export default {
     Recall,
     Blog,
     Locations,
+    Social,
     Footer
   }
 };
