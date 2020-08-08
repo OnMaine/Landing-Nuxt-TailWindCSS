@@ -5,7 +5,7 @@
         <div class="social-mogo p-5 grid grid-cols-1 grid-rows-2">
           <div>
             <h2 class="font-Montserrat text-5xl font-bold text-gray-500 pb-2">MoGo</h2>
-            <p class="font-Montserrat text-sm text-gray-500 pb-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            <p class="font-Montserrat text-sm text-gray-500 pb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
           </div>
