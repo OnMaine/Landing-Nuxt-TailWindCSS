@@ -31,4 +31,10 @@ export default {
     left: 70%;
   }
 }
+
+@media (min-width: 320px) and (max-width: 800px) {
+  .mobile-img::before {
+    display: none;
+  }
+}
 </style>

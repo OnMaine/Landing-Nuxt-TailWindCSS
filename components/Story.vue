@@ -9,8 +9,8 @@
       <p class="font-Roboto text-sm w-3/4 mx-auto mb-24 text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
-    <div class="container mx-auto flex flex-row justify-around mb-32">
-      <div class="story-image">
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 justify-center mb-32">
+      <div class="story-image grid justify-center p-5">
         <story-card>
           <img src="/card1.png" alt="computer">
           <div class="story-image-text">
@@ -19,7 +19,7 @@
           </div>
         </story-card>
       </div>
-      <div class="story-image">
+      <div class="story-image grid justify-center p-5">
         <story-card>
           <img src="/card2.png" alt="table1">
           <div class="story-image-text">
@@ -28,7 +28,7 @@
           </div>
         </story-card>
       </div>
-      <div class="story-image">
+      <div class="story-image grid justify-center p-5">
         <story-card>
           <img src="/card3.png" alt="table2">
           <div class="story-image-text">

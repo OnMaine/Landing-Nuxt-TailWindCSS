@@ -7,7 +7,7 @@
       </div>
       <div class="border-b-4 border-red-400 w-16 mx-auto my-8"></div>
     </div>
-    <div class="container mx-auto grid grid-cols-2 grid-rows-2 pb-12">
+    <div class="container mx-auto grid grid-cols-1 grid-rows-2 sm:grid-cols-2 pb-12">
       <recall-card>
         <img src="/user1.png" alt="">
         <div class="recall-text">

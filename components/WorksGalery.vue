@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-4 gap-0">
+  <div class="grid grid-cols-2 sm:grid-cols-4 gap-0">
     <div class="works-content">
       <img-loader class="image-full" name="work"></img-loader>
       <works-text></works-text>

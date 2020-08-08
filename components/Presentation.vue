@@ -9,11 +9,11 @@
       <p class="font-Roboto text-sm w-3/4 mx-auto mb-24 text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
     </div>
-    <div class="container mx-auto flex justify-around">
-      <div class="w-1/2 pb-16">
+    <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2">
+      <div class="pb-16 px-2">
         <img src="/photo.png" alt="what we do">
       </div>
-      <div class="w-1/2">
+      <div class="px-2">
         <ul class="list-none m-0 p-0">
           <presentation-tabs>
             <img-loader class="Ptabs-icon" name="PICTURE" alt="photo"> asd</img-loader>

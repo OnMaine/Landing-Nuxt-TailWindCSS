@@ -1,6 +1,6 @@
 <template>
   <section class="bg-teal-300">
-    <div class="container mx-auto flex flex-row flex-wrap justify-around">
+    <div class="container mx-auto grid grid-cols-2 sm:grid-cols-5">
       <stats-card>
         <h3 class="font-bold text-6xl">42</h3>
         <p class="text-sm">Web Design Projects</p>

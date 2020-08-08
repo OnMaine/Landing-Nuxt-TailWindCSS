@@ -8,7 +8,7 @@
       <div class="border-b-4 border-red-400 w-16 mx-auto my-8"></div>
     </div>
     <div class="container mx-auto mb-32">
-      <div class="services-cards">
+      <div class="services-cards grid grid-cols-1 my-10 md:grid-cols-3">
         <div class="services-card">
           <img class="services-img" src="~assets/img/alarm.svg" alt="Photography">
           <div>
@@ -32,7 +32,7 @@
         </div>
       </div>
       <hr>
-      <div class="services-cards">
+      <div class="services-cards grid grid-cols-1 my-10 md:grid-cols-3">
         <div class="services-card">
           <img class="services-img" src="~assets/img/book.svg" alt="Seo">
           <div>
@@ -64,17 +64,14 @@
 </script>
 
 <style>
-.services-cards {
-  @apply flex flex-row justify-around my-10;
-}
 
 .services-card {
-  @apply flex w-1/4 items-start;
+  @apply flex items-start p-5;
   & h4 {
     @apply font-bold font-Montserrat text-gray-900 text-sm;
   }
   & p {
-    @apply font-Roboto pt-2 text-gray-600 text-sm;
+    @apply font-Roboto pt-2 pr-10 text-gray-600 text-sm;
   }
 }
 

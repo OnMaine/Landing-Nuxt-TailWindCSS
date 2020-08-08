@@ -12,7 +12,7 @@
           <div>
             <p class="pb-3 border-gray-600 border-b"><span class="font-bold">15K</span> followers</p>
             <div class="pt-3 italic text-gray-500 flex">
-              <span>Follow Us:</span>
+              <span class="text-sm sm:text-base">Follow Us:</span>
               <div class="folow grid grid-cols-8 pl-5">
                 <img-loader name="fb"></img-loader>
                 <img-loader name="tw"></img-loader>

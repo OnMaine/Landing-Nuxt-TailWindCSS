@@ -11,7 +11,7 @@
          labore et dolore magna aliqua.
          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
     </div>
-    <div class="container mx-auto flex flex-row justify-around mb-32 text-center">
+    <div class="container mx-auto grid grid-cols-1 sm:grid-cols-3 mb-32 text-center">
       <div>
         <div class="story-image">
           <story-card>
