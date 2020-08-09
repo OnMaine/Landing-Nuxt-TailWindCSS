@@ -62,6 +62,10 @@ export default {
 </script>
 
 <style>
+.hooper {
+  height: 400px;
+}
+
 .slider {
    @apply bg-gray-300 h-full hidden;
    @screen lg {
