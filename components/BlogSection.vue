@@ -10,59 +10,59 @@
     <div class="container mx-auto grid grid-cols-1 sm:grid-cols-3 gap-0 mb-32">
       <div class="blog-card">
         <div class="grid justify-center">
-          <img-loader name="blog1"></img-loader>
+          <img-loader name="blog1" alt="blog"></img-loader>
         </div>
         <div class="blog-text">
           <h3>Lorem ipsum dolor sit amet</h3>
           <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
           <blog-comments>
-              <blog-stats>
-                <img-loader name="view"></img-loader>
-                <span>992</span>
-              </blog-stats>
-              <blog-stats>
-                <img-loader name="com"></img-loader>
-                <span>42</span>
-              </blog-stats>
-            </blog-comments>
+            <blog-stats>
+              <img-loader name="view" alt="blog-stats"></img-loader>
+              <span>992</span>
+            </blog-stats>
+            <blog-stats>
+              <img-loader name="com" alt="blog-stats"></img-loader>
+              <span>42</span>
+            </blog-stats>
+          </blog-comments>
         </div>
       </div>
       <div class="blog-card">
         <div class="grid justify-center">
-          <img-loader name="blog2"></img-loader>
+          <img-loader name="blog2" alt="blog"></img-loader>
         </div>
         <div class="blog-text">
           <h3>sed do eiusmod tempor</h3>
           <p>Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           <blog-comments>
-              <blog-stats>
-                <img-loader name="view"></img-loader>
-                <span>1560</span>
-              </blog-stats>
-              <blog-stats>
-                <img-loader name="com"></img-loader>
-                <span>98</span>
-              </blog-stats>
-            </blog-comments>
+            <blog-stats>
+              <img-loader name="view" alt="blog-stats"></img-loader>
+              <span>1560</span>
+            </blog-stats>
+            <blog-stats>
+              <img-loader name="com" alt="blog-stats"></img-loader>
+              <span>98</span>
+            </blog-stats>
+          </blog-comments>
         </div>
       </div>
       <div class="blog-card">
         <div class="grid justify-center">
-          <img-loader name="blog3"></img-loader>
+          <img-loader name="blog3" alt="blog"></img-loader>
         </div>
         <div class="blog-text">
           <h3>incididunt ut labore et dolore</h3>
           <p>Elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
           <blog-comments>
-              <blog-stats>
-                <img-loader name="view"></img-loader>
-                <span>542</span>
-              </blog-stats>
-              <blog-stats>
-                <img-loader name="com"></img-loader>
-                <span>17</span>
-              </blog-stats>
-            </blog-comments>
+            <blog-stats>
+              <img-loader name="view" alt="blog-stats"></img-loader>
+              <span>542</span>
+            </blog-stats>
+            <blog-stats>
+              <img-loader name="com" alt="blog-stats"></img-loader>
+              <span>17</span>
+            </blog-stats>
+          </blog-comments>
         </div>
       </div>
     </div>

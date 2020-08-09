@@ -7,7 +7,9 @@
           “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
            Ut enim ad minim veniam, quis nostrud exercitation.”
         </p>
-        <p class="block-signature">Jon Doe</p>
+        <div class="relative">
+          <p class="block-signature">Jon Doe</p>
+        </div>
       </blockquote>
     </slide>
     <slide class="slide">
@@ -17,7 +19,9 @@
           “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
            Ut enim ad minim veniam, quis nostrud exercitation.”
         </p>
-        <p class="block-signature">Joshua Earle</p>
+        <div class="relative">
+          <p class="block-signature">Joshua Earle</p>
+        </div>
       </blockquote>
     </slide>
     <hooper-navigation class="hooper-navigation" slot="hooper-addons"></hooper-navigation>
@@ -59,7 +63,10 @@ export default {
 
 <style>
 .slider {
-   @apply bg-gray-300 h-full;
+   @apply bg-gray-300 h-full hidden;
+   @screen lg {
+     @apply block;
+   }
 }
 
 .slide-img {
@@ -88,13 +95,7 @@ export default {
   &::before {
   @apply border-b-4 border-red-400 w-32 absolute;
   content: "";
-  top: 210px;
+  top: 100%;
  }
-}
-
-@media (min-width: 320px) and (max-width: 1068px) {
-  .slider {
-    display: none;
-  }
 }
 </style>

@@ -54,12 +54,10 @@ export default {
 <style>
 
 .link {
-  @apply px-6 text-white uppercase;
-  &:hover {
-    @apply text-orange-300 font-bold border-b-2 border-solid border-orange-300;
-  }
+  @apply px-6 text-white font-bold uppercase;
+  &:hover,
   &:focus {
-    @apply text-orange-300 font-bold border-b-2 border-solid border-orange-300;
+    @apply text-orange-300 border-b-2 border-solid border-orange-300;
   }
 }
 .link-img {

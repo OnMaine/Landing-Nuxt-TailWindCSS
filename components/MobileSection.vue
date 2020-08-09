@@ -1,5 +1,5 @@
 <template>
-  <section style="background-image: url(/mobile.png) no-repeat; background-size: cover;">
+  <section class="mobile">
     <div class="font-Montserrat container mx-auto text-center">
       <div class="pt-20">
         <span class="text-xl font-Kaushan">For all devices</span>
@@ -9,32 +9,38 @@
     </div>
     <div class="container mx-auto flex justify-center">
       <div class="mobile-img">
-        <img src="/laptop.png" alt="Design">
+        <img-loader name="laptop"></img-loader>
       </div>
     </div>
   </section>
 </template>
 
 <script>
-export default {
+import ImgLoader from '~/components/ImgLoader';
 
+export default {
+  components: {
+    ImgLoader,
+  }
 };
 </script>
 
 <style>
+.mobile {
+  @apply bg-cover;
+  background-image: url("~assets/img/mobile.png");
+}
+
 .mobile-img {
   @apply relative z-0 inline-block;
   &::before {
-    @apply absolute z-10;
-    content: url(/phone.png);
+    @apply absolute z-10 hidden;
+    content: url("~assets/img//phone.png");
     top: 38%;
     left: 70%;
-  }
-}
-
-@media (min-width: 320px) and (max-width: 800px) {
-  .mobile-img::before {
-    display: none;
+    @screen md {
+      @apply block;
+    }
   }
 }
 </style>

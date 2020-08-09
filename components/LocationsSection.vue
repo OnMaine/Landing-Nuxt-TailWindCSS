@@ -1,5 +1,5 @@
 <template>
-  <section class="location flex justify-center items-center" style="background-image: url(/map.png); background-size: cover">
+  <section class="location flex justify-center items-center">
     <div class="container mx-auto text-center">
       <img-loader class="mx-auto" name="pin"></img-loader>
       <h2 class="map-text">Open Map</h2>
@@ -27,6 +27,11 @@ export default {
 .map-text {
   @apply uppercase text-3xl font-bold;
   color: #f38181;
+}
+
+.location {
+  @apply bg-cover;
+  background-image: url("~assets/img/map.png");
 }
 
 </style>

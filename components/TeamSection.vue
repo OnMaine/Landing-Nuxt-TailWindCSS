@@ -12,10 +12,10 @@
          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
     </div>
     <div class="container mx-auto grid grid-cols-1 sm:grid-cols-3 mb-32 text-center">
-      <div>
+      <div class="px-5">
         <div class="story-image">
           <story-card>
-            <img src="/team1.png" alt="team designer">
+            <img-loader name="team1" alt="team designer"></img-loader>
             <div class="story-image-text team-text">
               <team-social></team-social>
             </div>
@@ -24,10 +24,10 @@
         <h3 class="team-name">Metthew Dix</h3>
         <p class="team-position">Graphic Design</p>
       </div>
-      <div>
+      <div class="px-5">
         <div class="story-image">
           <story-card>
-            <img src="/team2.png" alt="team Ui|Ux">
+            <img-loader name="team2" alt="team Ui|Ux"></img-loader>
             <div class="story-image-text team-text">
               <team-social></team-social>
             </div>
@@ -36,10 +36,10 @@
         <h3 class="team-name">Christopher Campbell</h3>
         <p class="team-position">Branding/UX design</p>
       </div>
-      <div>
+      <div class="px-5">
         <div class="story-image">
           <story-card>
-            <img src="/team3.png" alt="team developer">
+            <img-loader name="team3" alt="team developer"></img-loader>
             <div class="story-image-text team-text">
               <team-social></team-social>
             </div>
@@ -55,11 +55,13 @@
 <script>
 import StoryCard from '~/components/StoryCard';
 import TeamSocial from '~/components/TeamSocial';
+import ImgLoader from '~/components/ImgLoader';
 
 export default {
   components: {
     StoryCard,
-    TeamSocial
+    TeamSocial,
+    ImgLoader,
   }
 };
 </script>
@@ -71,10 +73,6 @@ export default {
 
 .team-position {
   @apply italic font-thin text-base;
-}
-
-.story-image:hover .team-text{
-  left: 20%;
 }
 
 </style>

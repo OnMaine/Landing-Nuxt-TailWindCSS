@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer">
+  <footer class="bg-gray-100">
     <div class="container mx-auto text-center font-Montserrat">
       <hr>
       <div>
@@ -10,8 +10,5 @@
 </template>
 
 <style>
-.footer {
-  background-color: #f8f8f8;
-}
 
 </style>

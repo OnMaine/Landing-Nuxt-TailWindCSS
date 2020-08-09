@@ -1,8 +1,17 @@
 <template>
-<nuxt />
+  <div>
+    <Header />
+    <main>
+      <nuxt/>
+    </main>
+    <Footer />
+  </div>
 </template>
 
 <script>
+import Header from '@/components/Header'
+import Footer from '@/components/Footer'
+
 export default {
   head: {
     title: "Nuxt.js with TailwindCSS",
@@ -20,25 +29,24 @@ export default {
       }
     ],
     link: [{
-      rel: "icon",
-      type: "image/x-icon",
-      href: "/favicon.ico"
-    }],
-    link: [{
       rel: "stylesheet",
       href:"https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap"
-    }],
+    }]
+  },
+  components: {
+    Header,
+    Footer
   }
 };
 </script>
 
 <style>
-/* полоса прокрутки (скроллбар) */
+
 ::-webkit-scrollbar {
   @apply w-2 h-2 bg-gray-400;
 }
 
-/* ползунок скроллбара */
+
 ::-webkit-scrollbar-thumb {
   @apply bg-teal-500 rounded-full shadow-inner;
 }
@@ -46,8 +54,6 @@ export default {
 ::-webkit-scrollbar-thumb:hover {
   @apply bg-red-400;
 }
-
-/* Стрелки */
 
 ::-webkit-scrollbar-button:vertical:start:decrement {
     background: linear-gradient(120deg, #fff5f7 40%, rgba(0, 0, 0, 0) 41%),

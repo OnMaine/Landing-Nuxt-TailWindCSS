@@ -6,7 +6,7 @@
 
 <style>
 .section-image {
-  @apply relative z-0;
+  @apply relative z-0 grid;
   &:hover {
     @apply cursor-pointer;
     &::after {

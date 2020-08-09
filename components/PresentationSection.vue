@@ -11,12 +11,12 @@
     </div>
     <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2">
       <div class="pb-16 px-2">
-        <img src="/photo.png" alt="what we do">
+        <img-loader name="photo" alt="what we do"></img-loader>
       </div>
       <div class="px-2">
         <ul class="list-none m-0 p-0">
           <presentation-tabs>
-            <img-loader class="Ptabs-icon" name="PICTURE" alt="photo"> asd</img-loader>
+            <img-loader class="Ptabs-icon" name="picture" alt="photo"></img-loader>
             <h1 tabindex="-1">Photography</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim optio commodi magni aliquam quas amet voluptatibus, et error vitae,
                repellendus unde minima fuga fugiat consequatur laboriosam aut nostrum molestias accusantium!
@@ -26,7 +26,7 @@
              </p>
           </presentation-tabs>
           <presentation-tabs>
-            <img-loader class="Ptabs-icon" name="EQUALIZER" alt="creativ"> asd</img-loader>
+            <img-loader class="Ptabs-icon" name="equalizer" alt="creativ"></img-loader>
             <h1 tabindex="-1">Creativity</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim optio commodi magni aliquam quas amet voluptatibus, et error vitae, repellendus unde minima
                fuga fugiat consequatur laboriosam aut nostrum molestias accusantium!
@@ -36,7 +36,7 @@
              </p>
           </presentation-tabs>
           <presentation-tabs>
-            <img-loader class="Ptabs-icon" name="BULLSEYE" alt="design"> asd</img-loader>
+            <img-loader class="Ptabs-icon" name="bullseye" alt="design"></img-loader>
             <h1 tabindex="-1">Web design</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim optio commodi magni aliquam quas amet voluptatibus, et error vitae,
                repellendus unde minima fuga fugiat consequatur laboriosam aut nostrum molestias accusantium!

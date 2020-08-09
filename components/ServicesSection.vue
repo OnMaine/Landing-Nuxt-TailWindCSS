@@ -10,21 +10,21 @@
     <div class="container mx-auto mb-32">
       <div class="services-cards grid grid-cols-1 my-10 md:grid-cols-3">
         <div class="services-card">
-          <img class="services-img" src="~assets/img/alarm.svg" alt="Photography">
+          <img-loader class="services-img" name="alarm"></img-loader>
           <div>
             <h4>Photography</h4>
             <p class="font-Roboto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
           </div>
         </div>
         <div class="services-card">
-          <img class="services-img" src="~assets/img/line.svg" alt="Web Design">
+          <img-loader class="services-img" name="line"></img-loader>
           <div>
             <h4>Web Design</h4>
             <p class="font-Roboto">Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
           </div>
         </div>
         <div class="services-card">
-          <img class="services-img" src="~assets/img/computer.svg" alt="Creativity">
+          <img-loader class="services-img" name="computer"></img-loader>
           <div>
             <h4>Creativity</h4>
             <p class="font-Roboto">Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
@@ -34,21 +34,21 @@
       <hr>
       <div class="services-cards grid grid-cols-1 my-10 md:grid-cols-3">
         <div class="services-card">
-          <img class="services-img" src="~assets/img/book.svg" alt="Seo">
+          <img-loader class="services-img" name="book"></img-loader>
           <div>
             <h4>Seo</h4>
             <p class="font-Roboto">Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
           </div>
         </div>
         <div class="services-card">
-          <img class="services-img" src="~assets/img/home.svg" alt="CSS/HTML">
+          <img-loader class="services-img" name="home"></img-loader>
           <div>
             <h4>CSS/HTML</h4>
             <p class="font-Roboto">Lorem dolor sit amet, consectetur adipiscing elit, sed do tempor.</p>
           </div>
         </div>
         <div class="services-card">
-          <img class="services-img" src="~assets/img/image.svg" alt="Digital">
+          <img-loader class="services-img" name="image"></img-loader>
           <div>
             <h4>Digital</h4>
             <p class="font-Roboto">Sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
@@ -60,7 +60,13 @@
 </template>
 
 <script>
+import ImgLoader from '~/components/ImgLoader';
 
+export default {
+  components: {
+    ImgLoader
+  }
+};
 </script>
 
 <style>

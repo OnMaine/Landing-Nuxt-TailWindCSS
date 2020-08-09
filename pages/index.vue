@@ -1,58 +1,52 @@
 <template>
   <div>
-    <Hero />
-    <Story />
-    <Stats />
-    <Services />
-    <Mobile />
-    <Presentation />
-    <Slider />
-    <Team />
-    <Hipster />
-    <Works />
-    <Slider />
-    <Recall />
-    <Blog />
-    <Locations />
-    <Social />
-    <Footer />
+    <StorySection />
+    <StatsSection />
+    <ServicesSection />
+    <MobileSection />
+    <PresentationSection />
+    <SliderSection />
+    <TeamSection />
+    <HipsterSection />
+    <WorksSection />
+    <SliderSection />
+    <RecallSection />
+    <BlogSection />
+    <LocationsSection />
+    <ContactsSection />
   </div>
 </template>
 
 <script>
-import Hero from '@/components/Hero'
-import Story from '@/components/Story'
-import Stats from '@/components/Stats'
-import Services from '@/components/Services'
-import Mobile from '@/components/Mobile'
-import Presentation from '@/components/Presentation'
-import Slider from '@/components/Slider'
-import Team from '@/components/Team'
-import Hipster from '@/components/Hipster'
-import Works from '@/components/Works'
-import Recall from '@/components/Recall'
-import Blog from '@/components/Blog'
-import Locations from '@/components/Locations'
-import Social from '@/components/Social'
-import Footer from '@/components/Footer'
+import StorySection from '@/components/StorySection'
+import StatsSection from '@/components/StatsSection'
+import ServicesSection from '@/components/ServicesSection'
+import MobileSection from '@/components/MobileSection'
+import PresentationSection from '@/components/PresentationSection'
+import SliderSection from '@/components/SliderSection'
+import TeamSection from '@/components/TeamSection'
+import HipsterSection from '@/components/HipsterSection'
+import WorksSection from '@/components/WorksSection'
+import RecallSection from '@/components/RecallSection'
+import BlogSection from '@/components/BlogSection'
+import LocationsSection from '@/components/LocationsSection'
+import ContactsSection from '@/components/ContactsSection'
 
 export default {
   components: {
-    Hero,
-    Story,
-    Stats,
-    Services,
-    Mobile,
-    Presentation,
-    Slider,
-    Team,
-    Hipster,
-    Works,
-    Recall,
-    Blog,
-    Locations,
-    Social,
-    Footer
+    StorySection,
+    StatsSection,
+    ServicesSection,
+    MobileSection,
+    PresentationSection,
+    SliderSection,
+    TeamSection,
+    HipsterSection,
+    WorksSection,
+    RecallSection,
+    BlogSection,
+    LocationsSection,
+    ContactsSection
   }
 };
 </script>

@@ -1,5 +1,5 @@
 <template>
-  <section id="recall" class="pb-10" style="background: url(/recall.png) no-repeat; background-size: cover;" >
+  <section id="recall" class="recall">
     <div class="container font-Montserrat mx-auto text-center py-20">
       <div>
         <span class="text-xl font-Kaushan">Heppy Clients</span>
@@ -9,7 +9,7 @@
     </div>
     <div class="container mx-auto grid grid-cols-1 grid-rows-2 sm:grid-cols-2 pb-12">
       <recall-card>
-        <img src="/user1.png" alt="">
+        <img-loader alt="user1" name="user1"></img-loader>
         <div class="recall-text">
           <h3>Matthew Dix</h3>
           <h4>Graphic Design</h4>
@@ -17,7 +17,7 @@
         </div>
       </recall-card>
       <recall-card>
-        <img src="/user3.png" alt="">
+        <img-loader alt="user3" name="user3"></img-loader>
         <div class="recall-text">
           <h3>Jaelynn Castillo</h3>
           <h4>Graphic Design</h4>
@@ -25,7 +25,7 @@
         </div>
       </recall-card>
       <recall-card>
-        <img src="/user4.png" alt="">
+        <img-loader alt="user4" name="user4"></img-loader>
         <div class="recall-text">
           <h3>Nick Karvounis</h3>
           <h4>Graphic Design</h4>
@@ -33,7 +33,7 @@
         </div>
       </recall-card>
       <recall-card>
-        <img src="/user5.png" alt="">
+        <img-loader alt="user5" name="user5"></img-loader>
         <div class="recall-text">
           <h3>Mike Petrucci</h3>
           <h4>Graphic Design</h4>
@@ -46,15 +46,21 @@
 
 <script>
 import RecallCard from '~/components/RecallCard';
+import ImgLoader from '~/components/ImgLoader';
 
 export default {
   components: {
     RecallCard,
+    ImgLoader
   }
 };
 </script>
 
 <style>
+.recall {
+  @apply bg-cover pb-10;
+  background-image: url("~assets/img/mobile.png");
+}
 
 .recall-text {
   @apply col-span-2;

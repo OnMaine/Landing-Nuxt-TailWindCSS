@@ -78,7 +78,7 @@ export default {
 
 <style>
 .social-images {
-  @apply flex flex-row flex-wrap;
+  @apply grid grid-cols-4;
 }
 .social-img {
   background-color: #fce38a;

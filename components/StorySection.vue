@@ -12,27 +12,27 @@
     <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 justify-center mb-32">
       <div class="story-image grid justify-center p-5">
         <story-card>
-          <img src="/card1.png" alt="computer">
+          <img-loader name="card1" alt="computer"></img-loader>
           <div class="story-image-text">
-            <img src="/USERS.png" alt="users">
+            <img-loader class="pl-10" name="users" alt="users"></img-loader>
             <h3>Super Team</h3>
           </div>
         </story-card>
       </div>
       <div class="story-image grid justify-center p-5">
         <story-card>
-          <img src="/card2.png" alt="table1">
+          <img-loader name="card2" alt="table1"></img-loader>
           <div class="story-image-text">
-            <img src="/USERS.png" alt="users">
+            <img-loader class="pl-10" name="users" alt="users"></img-loader>
             <h3>Super Team</h3>
           </div>
         </story-card>
       </div>
       <div class="story-image grid justify-center p-5">
         <story-card>
-          <img src="/card3.png" alt="table2">
+          <img-loader name="card3" alt="table2"></img-loader>
           <div class="story-image-text">
-            <img src="/USERS.png" alt="users">
+            <img-loader class="pl-10" name="users" alt="users"></img-loader>
             <h3>Super Team</h3>
           </div>
         </story-card>
@@ -43,23 +43,27 @@
 
 <script>
 import StoryCard from '~/components/StoryCard';
+import ImgLoader from '~/components/ImgLoader';
 
 export default {
   components: {
     StoryCard,
+    ImgLoader
   }
 };
 </script>
 
 <style>
 .story-image-text {
-  @apply hidden text-white uppercase font-bold font-Montserrat items-center;
+  @apply hidden text-white uppercase font-bold font-Montserrat;
 }
 
 .story-image:hover .story-image-text {
-  @apply block absolute z-50 flex flex-col justify-center;
-  top: calc(50% - 47px/2);
-  left: calc(50% - 110px/2);
+  @apply block absolute z-50;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
 }
 
 </style>

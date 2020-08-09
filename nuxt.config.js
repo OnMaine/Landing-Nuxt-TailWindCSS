@@ -9,9 +9,5 @@ export default {
   tailwindcss: {
     // add '~tailwind.config` alias
     exposeConfig: true
-  },
-  modules: [
-    // TODO: Remove it if you want to eject from codeSandbox
-    "./codesandbox"
-  ]
+  }
 };

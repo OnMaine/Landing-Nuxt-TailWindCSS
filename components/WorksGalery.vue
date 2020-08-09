@@ -26,7 +26,7 @@
     </div>
     <div class="works-content">
       <img-loader class="image-full" name="work6"></img-loader>
-      <works-text></works-text>
+      <works-text class="grid self-center"></works-text>
     </div>
   </div>
 </template>
@@ -45,11 +45,11 @@ export default {
 
 <style>
 .works-content {
-  @apply relative z-0;
+  @apply relative z-0 grid;
   &:hover {
     @apply cursor-pointer;
     &::before {
-      @apply absolute w-full h-full z-10 flex;
+      @apply absolute w-full h-full z-10;
        content: "";
        background: linear-gradient(#db7474, #e3cc7c);
        opacity: 0.9;

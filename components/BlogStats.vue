@@ -1,15 +1,15 @@
 <template>
-  <div class="coments-stats-wrap">
-    <slot>wrapp</slot>
+  <div class="coments-stats-count">
+    <slot>stats</slot>
   </div>
 </template>
 
 <style>
-.coments-stats-wrap {
+.coments-stats-count {
   @apply grid grid-cols-2 self-center justify-center;
 }
 
-.coments-stats-wrap img {
+.coments-stats-count img {
   @apply pt-1 pr-3;
 }
 

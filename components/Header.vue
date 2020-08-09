@@ -1,5 +1,5 @@
 <template>
-  <header class="bg-cover bg-center text-white text-center font-Montserrat" style="background-image: url(/bg.png)">
+  <header class="header">
     <div class="container mx-auto">
       <Navbar/>
       <div class="py-24 flex-col justify-center">
@@ -34,8 +34,11 @@ export default {
 };
 </script>
 
-</script>
-
 <style>
+
+.header {
+  @apply bg-cover bg-center text-white text-center font-Montserrat;
+  background-image: url("~assets/img/bg.png");
+}
 
 </style>

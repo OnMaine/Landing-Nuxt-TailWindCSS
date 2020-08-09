@@ -1,23 +1,31 @@
 <template>
   <div class="works-text">
-    <img src="/pic2.png" alt="users">
-    <h3 class="uppercase text-lg py-3">creatively designed</h3>
-    <p class="italic text-sm">Lorem ipsum dolor sit</p>
+    <img-loader alt="users" name="pic2"></img-loader>
+    <h3 class="uppercase text-xs lg:text-lg py-3">creatively designed</h3>
+    <p class="italic hidden sm:block text-sm lg:text-base">Lorem ipsum dolor sit</p>
   </div>
 </template>
 
 <script>
+import ImgLoader from '~/components/ImgLoader';
 
+export default {
+  components: {
+    ImgLoader,
+  }
+};
 </script>
 
 <style>
 .works-text {
-  @apply hidden text-white font-Montserrat items-center;
+  @apply grid self-center hidden text-white font-Montserrat items-center;
 }
 
 .works-content:hover .works-text {
   @apply block absolute z-50 flex flex-col justify-center;
-  top: calc(50% - 102px/2);
-  left: calc(50% - 215px/2);
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
 }
 </style>

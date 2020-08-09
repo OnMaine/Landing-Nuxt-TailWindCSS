@@ -1,8 +1,8 @@
 <template>
-  <section id="contacts" class="footer">
+  <section id="contacts" class="bg-gray-100">
     <div class="container mx-auto">
       <div class="grid grid-cols-1 sm:grid-cols-3 pt-12">
-        <div class="social-mogo p-5 grid grid-cols-1 grid-rows-2">
+        <div class="contacts-mogo p-5 grid grid-cols-1 grid-rows-2">
           <div>
             <h2 class="font-Montserrat text-5xl font-bold text-gray-500 pb-2">MoGo</h2>
             <p class="font-Montserrat text-sm text-gray-500 pb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -25,35 +25,35 @@
               </div>
             </div>
             <div>
-              <form class="social-form pt-5 grid grid-cols-2" action="#" method="post">
+              <form class="contacts-form pt-5 grid grid-cols-2" action="#" method="post">
                 <input class="p-1" type="email" id="email" placeholder="Your Email..." size="30">
-                <button class="social-btn">Subscribe</button>
+                <button class="contacts-btn">Subscribe</button>
               </form>
             </div>
           </div>
         </div>
-        <div class="social-blogs p-5">
+        <div class="contacts-blogs p-5">
           <h3 class="uppercase font-Montserrat font-bold text-sm pb-5">Blogs</h3>
           <div>
-            <div class="social-blog-card">
+            <div class="contacts-blog-card">
               <img-loader name="soc1"></img-loader>
-              <div class="social-blog-text">
+              <div class="contacts-blog-text">
                 <h3>Lorem ipsum dolor sit amet,
                    consectetur adipiscing</h3>
                 <p>Jan 9, 2016</p>
               </div>
             </div>
-            <div class="social-blog-card">
+            <div class="contacts-blog-card">
               <img-loader name="soc2"></img-loader>
-              <div class="social-blog-text">
+              <div class="contacts-blog-text">
                 <h3>Consectetur adipiscing elit,
                    sed do eiusmod tempor</h3>
                 <p>Jan 9, 2016</p>
               </div>
             </div>
-            <div class="social-blog-card">
+            <div class="contacts-blog-card">
               <img-loader name="soc3"></img-loader>
-              <div class="social-blog-text">
+              <div class="contacts-blog-text">
                 <h3>sed do eiusmod tempor
                    incididunt ut labore</h3>
                 <p>Jan 9, 2016</p>
@@ -61,7 +61,7 @@
             </div>
           </div>
         </div>
-        <div class="social-instagram p-5">
+        <div class="contacts-instagram p-5">
           <h3 class="uppercase font-Montserrat font-bold text-sm pb-5">Instagram</h3>
           <div class="instagram-images grid grid-cols-3">
             <img-loader name="inst1"></img-loader>
@@ -99,26 +99,26 @@ export default {
   }
 }
 
-.social-blog-card {
+.contacts-blog-card {
   @apply grid grid-cols-2 align-middle justify-center pr-2;
 }
 
-.social-blog-card img {
+.contacts-blog-card img {
   @apply pb-5 pr-5;
   &:hover {
     @apply cursor-pointer;
   }
 }
 
-.social-blog-text h3 {
+.contacts-blog-text h3 {
   @apply font-Montserrat font-bold uppercase text-xs whitespace-pre-line;
 }
 
-.social-blog-text p {
+.contacts-blog-text p {
   @apply font-Montserrat text-xs text-gray-500 italic;
 }
 
-.social-btn {
+.contacts-btn {
   @apply bg-teal-300 text-white uppercase font-bold text-sm outline-none;
   &:hover {
     @apply cursor-pointer bg-white text-teal-300 border-2 border-teal-300;
