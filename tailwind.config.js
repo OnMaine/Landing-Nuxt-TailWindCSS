@@ -20,6 +20,11 @@ module.exports = {
         'sans-serif'
       ],
     },
+    extend: {
+      colors: {
+        'custom-gr': '#f8f8f8',
+      }
+    }
   },
   variants: {},
   plugins: [],

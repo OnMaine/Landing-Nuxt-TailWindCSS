@@ -1,5 +1,5 @@
 <template>
-  <section id="contacts" class="bg-gray-100">
+  <section id="contacts" class="bg-custom-gr">
     <div class="container mx-auto">
       <div class="grid grid-cols-1 sm:grid-cols-3 pt-12">
         <div class="contacts-mogo p-5 grid grid-cols-1 grid-rows-2">

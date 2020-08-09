@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-gray-100">
+  <footer class="bg-custom-gr">
     <div class="container mx-auto text-center font-Montserrat">
       <hr>
       <div>
