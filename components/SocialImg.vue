@@ -81,13 +81,9 @@ export default {
   @apply grid grid-cols-4;
 }
 .social-img {
-  background-color: #fce38a;
-  border-color: #f38181;
-	padding: 1rem;
-  border-left-width: 1px;
+  @apply bg-custom-yell border-custom-blue p-4 border-l;
   &:hover {
-    background-color: #f38181;
-    border-color: #fce38a;
+    @apply bg-custom-blue border-custom-yell;
   }
 }
 
@@ -96,7 +92,7 @@ export default {
 }
 
 .social-img:hover .cls-1 {
-  fill: #ffffff;
+  background-color: #ffffff;
 }
 
 </style>

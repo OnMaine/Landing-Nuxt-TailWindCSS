@@ -23,6 +23,8 @@ module.exports = {
     extend: {
       colors: {
         'custom-gr': '#f8f8f8',
+        'custom-yell': '#fce38a',
+        'custom-blue': '#f38181',
       }
     }
   },
