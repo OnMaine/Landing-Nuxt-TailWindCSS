@@ -1,5 +1,5 @@
 <template>
-  <hooper :settings="hooperSettings" class="slider">
+  <hooper style="height: 230px" :settings="hooperSettings" class="slider">
     <slide class="slide">
       <img-loader class="slide-img" name="user" alt="design"> asd</img-loader>
       <blockquote>
@@ -75,12 +75,6 @@ export default {
 .slide {
   @apply my-10;
 }
-
-.slide img {
-  width: 70%;
-  height: 70%;
-}
-
 
 .block-text {
   @apply font-Roboto italic w-4/5 pt-10;

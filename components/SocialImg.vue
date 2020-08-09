@@ -92,7 +92,7 @@ export default {
 }
 
 .social-img:hover .cls-1 {
-  background-color: #ffffff;
+  fill: #ffffff;
 }
 
 </style>
