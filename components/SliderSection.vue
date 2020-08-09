@@ -62,10 +62,6 @@ export default {
 </script>
 
 <style>
-.hooper {
-  height: 400px;
-}
-
 .slider {
    @apply bg-gray-300 h-full hidden;
    @screen lg {
@@ -79,6 +75,12 @@ export default {
 .slide {
   @apply my-10;
 }
+
+.slide img {
+  width: 70%;
+  height: 70%;
+}
+
 
 .block-text {
   @apply font-Roboto italic w-4/5 pt-10;
