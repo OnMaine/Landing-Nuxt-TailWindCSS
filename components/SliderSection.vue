@@ -72,9 +72,7 @@ export default {
 .slide-img {
   @apply mx-24 float-left pb-0 p-3;
 }
-.slide {
-  @apply my-10;
-}
+
 
 .block-text {
   @apply font-Roboto italic w-4/5 pt-10;
